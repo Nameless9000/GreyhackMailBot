@@ -9,11 +9,11 @@ email = "admin@domain.com"
 
 b = new Bot
 
-// these can be another email if u have one
+//-- these can be another email if u have one
 b.config.email = email
 b.config.password = "ur email pass"
 
-// coming soon (probably)
+//-- coming soon (probably)
 b.addToWhitelist(email, 6)
 
 b.start()
